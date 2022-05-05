@@ -1,0 +1,66 @@
+.HomeBg{
+    width: auto;
+    height: auto;
+    margin:0px;
+    padding:0px;
+    background: url(../images/HomeBg.jpg) no-repeat center center fixed; 
+    background-size:cover;
+} 
+.MenuBg 
+{
+    width: auto;
+    height: auto;
+    margin:0px;
+    padding:0px;
+    background: url(../images/MenuBg.jpg) no-repeat center center fixed; 
+    background-size:cover;
+}
+.MemberBg{
+    width: auto;
+    height: auto;
+    margin:0px;
+    padding:0px;
+    background: url(../images/MemberBg.jpg) no-repeat center center fixed; 
+    background-size:cover;
+}   
+.RestaurantBg{
+    width: auto;
+    height: auto;
+    margin:0px;
+    padding:0px;
+    background: url(../images/LoactionBg.jpg) no-repeat center center fixed; 
+    background-size:cover;
+}   
+.NewsBg{
+    width: auto;
+    height: auto;
+    margin:0px;
+    padding:0px;
+    background: url(../images/NewsBg.jpg) no-repeat center center fixed; 
+    background-size:cover;
+}   
+.ContactBg{
+    width: auto;
+    height: auto;
+    margin:0px;
+    padding:0px;
+    background: url(../images/ContactBg.png) no-repeat center center fixed; 
+    background-size:cover;
+}   
+.OrderANDBooking{
+    width: auto;
+    height: auto;
+    margin:0px;
+    padding:0px;
+    background: url(../images/Order/Takeout.jpg) no-repeat center center fixed; 
+    background-size:cover;
+}
+/*body { 自動縮放
+    padding: 20px 0;
+    background: url(../images/HomeBg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: cover; 
+} 
+*/

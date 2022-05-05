@@ -1,0 +1,69 @@
+html { box-sizing: border-box; }
+*, *::before, *::after { box-sizing: inherit; }
+
+h1, h2 {
+    margin: 0;
+    padding: 34px 0 14px 40px;
+}
+nav > ul {
+    background-color: rgb(230, 230, 230);
+    list-style: none;   /* 移除項目符號 */
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: inherit; /* 移除超連結顏色 */
+    display: block; /* 讓 <a> 填滿 <li> */
+    font-size: 1.2rem;
+    padding: 10px;
+    text-decoration: none;  /* 移除超連結底線 */
+}
+
+
+/* 滑鼠移到 <a> 時變成深底淺色 */
+nav li:hover {
+    background-color: rgb(115, 115, 115);
+    color: white;
+}
+
+.flex-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.inline-block-nav {
+    text-align: center;
+    font-size: 0;   /* 移除 <li> 之間的空隙 */
+}
+
+.inline-block-nav > li {
+    display: inline-block;
+}
+.navbar .nav.pull-center {
+    float: none;
+    margin: 0 auto;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+    *zoom:1; /* hasLayout ie7 trigger */
+    vertical-align: top;
+  }
+
+.navbar-inner {
+    text-align:center;
+}
+.box-content{
+    padding: 20px;
+    border: 1px solid black;
+    box-shadow: 0 2px 9px black;
+    background-color: grey;
+}
+.col2{
+    width:350px;
+    height:300px;
+    margin: 0px 1px 0px 1px; padding-top: 2px;
+    border:solid black 1px;
+    float:left;
+    text-align:center;
+}
+.col2 img { width: 200px;}
